@@ -30,6 +30,6 @@ Once the project is open in your browser, you can:
 - **Search** for anything using the Google-like search bar.
 - Switch between **Google Search**, **Image Search**, and **Advanced Search**.
 
-google-search.png
+![Google Search Screenshot](https://github.com/eisha-naz/google-search/raw/main/google-search.png)
 
 
