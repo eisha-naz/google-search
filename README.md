@@ -33,12 +33,15 @@ Once the project is open in your browser, you can:
 ## Screenshot
 
 google search
+
 ![Google Search Screenshot](https://github.com/eisha-naz/google-search/raw/main/google-search.png)
 
 advanced search
+
 ![Google Search Screenshot](https://github.com/eisha-naz/google-search/raw/main/advanced-search.png)
 
 images
+
 ![Google Search Screenshot](https://github.com/eisha-naz/google-search/raw/main/image-search.png)
 
 
