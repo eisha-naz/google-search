@@ -12,3 +12,22 @@ This project is a simple clone of **Google's** main search page, including **Goo
 
 - **HTML**: For the structure of the pages.
 - **CSS**: For styling, mimicking **Google’s** design aesthetics.
+
+ ## **Installation**
+
+1. Clone the repository: https://github.com/yourusername/google-search.git
+2. Navigate to the project folder: cd google-search
+3. Open the `index.html` file in your browser to view the project.
+
+No additional setup is required for this project since it is a static website.
+
+## **Usage**
+
+Once the project is open in your browser, you can:
+
+- **Search** for anything using the Google-like search bar.
+- Switch between **Google Search**, **Image Search**, and **Advanced Search**.
+
+
+
+
