@@ -34,14 +34,14 @@ Once the project is open in your browser, you can:
 
 google search
 
-![Google Search Screenshot](https://github.com/eisha-naz/google-search/raw/main/google-search.png)
+![Google Search Screenshot](https://github.com/eisha-naz/google-search/blob/main/Project-Screenshots/google-search.png)
 
 advanced search
 
-![Google Search Screenshot](https://github.com/eisha-naz/google-search/raw/main/advanced-search.png)
+![Google Search Screenshot](https://github.com/eisha-naz/google-search/blob/main/Project-Screenshots/advanced-search.png)
 
 images
 
-![Google Search Screenshot](https://github.com/eisha-naz/google-search/raw/main/image-search.png)
+![Google Search Screenshot](https://github.com/eisha-naz/google-search/blob/main/Project-Screenshots/image-search.png)
 
 
