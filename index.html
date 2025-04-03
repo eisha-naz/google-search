@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Search</title>
+   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+             body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #SearchBar {
+            border-radius: 24px;
+            width: 500px;
+            height: 25px;
+            border: 1px rgba(130, 130, 130, 0.3);
+            margin: none;
+            padding: 10px 40px;
+            font-size: 16px;
+            box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.1), 5px 5px 10px rgba(157, 157, 157, 0.3);
+           
+        }
+
+        #SearchBar:hover {
+            transform: scale(1.01);
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 75vh;
+            position: relative;
+        }
+
+        .search-icon {
+            font-size: 13px;
+            position: absolute;
+            left: 490px;
+            color: #7f7f80;
+        }
+
+        .mic-icon {
+            font-size: 17px;
+            position: absolute;
+            right: 490px;
+            color: #1a73e8;
+            cursor: pointer;
+        }
+
+        #logo {
+            display: flex;
+            position: absolute;
+            top: 140px;
+            left: 41%;
+        }
+       
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -223px;
+        }
+
+        .buttonContainer {
+            background-color: #f6f6f6;
+            height: 37px;
+            border-radius: 4px;
+            border: none;
+            color: #404040;
+            font-family: Arial, sans-serif;
+            font-size: 15px;
+            margin-left: 12px;
+            
+        }
+        .buttonContainer:hover {
+            background-color: #efefef;
+            border: 1px solid #dddddd; 
+            transform: scale(1.0010);
+            
+        }
+
+        #searchBtn {
+            width: 130px;
+        }
+
+        #feelingLuckyBtn {
+            width: 145px;
+        }
+
+        .content {
+            display: flex;
+            right: 25px;
+            position: absolute;
+            top: 20px;
+            gap: 10px;
+        }
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            bottom: 20px;
+            right: 25px;
+            left: 25px;
+            gap: 15px;
+        }
+
+        .left-links {
+            display: flex;
+            gap: 15px;
+            justify-content: flex-start;
+        }
+
+        .right-links {
+            display: flex;
+            gap: 15px;
+            justify-content: flex-end;
+        }
+
+        #Hbtn {
+            color: #464a4f;
+            padding: 10px;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            padding: 14px 1px;
+            cursor: pointer;
+        }
+
+        #Hbtn:hover {
+           text-decoration: underline;
+        }
+       
+
+   
+        #Advanced {
+            background-color: #1a73e8;
+            margin-top: 5px;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+        .footer {
+            background-color: #f1efef;
+            height: 70px;
+            padding: 0;
+            margin: 0;
+            position: relative;
+            top: 70px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
+    </div>
+
+    <form action="https://google.com/search">
+        <div class="center">
+            <i class="bi bi-search search-icon"></i> <!-- Magnifying Glass Icon -->
+            <input id="SearchBar" type="text" name="q">
+            <i class="bi bi-mic-fill mic-icon"></i> <!-- Mic Icon -->
+        </div>
+
+       
+        <div class="buttons">
+            <input class="buttonContainer" id="searchBtn" type="submit" value="Google Search" name="btnK">
+            <input class="buttonContainer" id="feelingLuckyBtn" type="submit" value="I'm Feeling Lucky" name="btnI">
+        </div>
+    </form>
+
+    <div class="content">
+        <a id="Hbtn" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+        <a id="Hbtn" href="image.html">Images</a>
+
+        <button style="border: none; background: none; font-size: 24px; cursor: pointer; color: #5f6368">
+            <i class="bi bi-grid-3x3-gap-fill"></i>
+        </button>
+
+        <a href="advanced.html">
+            <button id="Advanced">
+                Advanced
+            </button>
+        </a>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="left-links">
+                <a id="Hbtn" href="#">About</a>
+                <a id="Hbtn" href="#">Advertising</a>
+                <a id="Hbtn" href="#">Business</a>
+                <a id="Hbtn" href="#">How Search works</a>
+            </div>
+            <div class="right-links">
+                <a id="Hbtn" href="#">Privacy</a>
+                <a id="Hbtn" href="#">Terms</a>
+                <a id="Hbtn" href="#">Settings</a>
+            </div>
+        </div>
+        
+    </footer>
+</body>
+</html>

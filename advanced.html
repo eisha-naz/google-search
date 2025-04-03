@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Google Advanced Search</title>
+        
+        <style>
+            body{
+                font-family: 'Poppins', sans-serif;
+                
+            }
+            header{
+                border-bottom: 1px solid rgb(213, 212, 212);
+                height : 130px;
+            }
+            #heading{
+                padding: 20px; 
+                position: relative; 
+                top: -8px; left: 20px; 
+                color: rgb(227, 15, 15); 
+                font-family: 'Roboto', sans-serif; 
+                font-weight: lighter; 
+                font-size: 20px;
+            }
+      
+            div {
+            padding: 1.2%;
+            }
+           
+
+            label{
+                min-width: 180px;
+                flex-shrink: 0;
+                text-align: left; 
+                padding-right: 5px;
+
+               
+            }
+            .row{
+                
+              
+                font-weight: 100;
+                font-size: 13px;
+                display: flex;
+                align-items: center; 
+                padding: 6px;
+                position: relative; 
+            }
+           
+            .container{
+            
+                display: flex;
+                padding-top: 50px;
+            }
+            .left{
+                
+                width:70%;
+                
+               
+            }
+            span {
+                width: 25%;
+                padding-left: 20px;
+                font-weight: 50;
+                font-size: 11px;
+                color: rgb(99, 99, 99);
+                display: inline-block; 
+                word-wrap: break-word; 
+            }
+
+            #txtR{
+               
+                min-width: 300px;
+ 
+            }
+            #txtBox{
+                
+                width: 60%;
+                height: 22px;
+                border: 1px solid #c8c8c8; 
+                padding: 3px;
+            }
+            
+            em{
+                font-family: 'Courier New', 'Roboto Mono', monospace;
+                font-weight: 400;
+                letter-spacing: 0.5px; 
+                font-size: 0.95em; 
+  
+            }
+            #txt{
+                text-align: left;
+                min-width: 180px; 
+            }
+            #txtBox2{
+                
+                width: 60%;
+                height: 28px; 
+                border: 0px;
+                padding: 5px 10px;
+                background-color: #ebebeb;
+                font-size: smaller;
+                font-weight: bold;
+                color: #484848;
+
+            }
+            .advanced-search-btn {
+                background-color: #4388f7;
+                color: white;
+                padding: 8px 15px;
+                font-size: 12px;
+                cursor: pointer;
+                margin: 10px;
+                border: 2px solid #2e76da;
+    
+            }
+
+            .advanced-search-btn:hover {
+                background-color: #216fed; 
+                border: 2px solid #1a5bb8; 
+                margin-top: 12px;  
+            }
+
+        
+            .right-align-btn {
+                text-align: right; 
+                margin-top: 30px;  
+                padding-bottom: 20px;
+                position: relative;
+                right:270px;
+                bottom: 80px;
+            }
+
+            .right-align-btn input {
+                 font-size: small;
+                 font-weight: bold;
+                 margin-right: 50px; 
+                 display: inline-block;
+            }
+            .bottom-text{
+                display: flex;
+                font-weight: 120;
+                font-size: 12.5px;
+                left:30px;
+                bottom:20px;
+                color:#2e76da;
+                height: 5px;
+                position: relative; 
+
+                
+            }
+            
+            .footer-content {
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                padding: 0; 
+                font-size: small;
+                color: grey;
+                position: relative;
+                top: 40px;  
+                left: -400px;  
+            }
+
+            .footer-content a {
+                text-decoration: none; 
+                color: grey; 
+            }
+
+            .footer-content a:hover {
+                color: #505050;
+            }
+
+
+            .footer{
+                background-color: #f1efef;
+                height: 70px;
+                padding: 0;
+                margin: 0;
+                position: relative;
+                
+            }
+            .simple-button {
+                color: #464a4f;
+                padding: 10px;
+                text-decoration: none;
+                font-family: Arial, sans-serif;
+                font-size: 14px;
+                padding: 20px 6px;
+                cursor: pointer;
+                position: relative;
+                left: 1350px; 
+             }
+
+
+           .simple-button:hover {
+                text-decoration: underline;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <header>
+            <div style="padding: 13px;">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  alt="Google Logo"  height="24px" >
+            <a href="index.html" class="simple-button">Search</a>
+
+
+           </div>
+           <h1 id="heading">
+          Advanced Search
+            </h1>
+
+        </header>
+        
+
+        <div class="container">
+            
+            <div class="left">
+                <form action="https://www.google.com/search" method="GET" id="advancedSearchForm">
+                   Find pages with...
+                   <span id="txtR" style="font-weight: bold; font-size: 13px; position: relative; top: -10px; left: 55%;">To do this in the search box.</span>
+                    <div class="row">
+                       <label  id="txt">all these words:</label>  <input id="txtBox" type="text" name="q" >
+                       <span id="txtR">Type the important words:<em> tri-colour rat terrier</em></span>
+                     </div>
+    
+                    <div class="row">
+                        <label id="txt">this exact word or phrase:</label><input id="txtBox" type="text" name="as_epq">
+                        <span id="txtR">Put exact words in quotes: <em>"rat terrier"</em></span>
+                       
+                    </div>
+    
+                    <div class="row">
+                        <label id="txt">any of these words:</label><input  id="txtBox" type="text" name="as_oq">
+                        <span id="txtR">Type OR between all the words you want: <em >miniature OR standard</em></span>
+                      
+                    </div>
+    
+                    <div class="row">
+                        <label id="txt">none of these words:</label><input  id="txtBox" type="text" name="as_eq">
+                        <span id="txtR">Put a minus sign before words you don't want: <em>-rodent, -"Jack Russell"</em></span>
+                        
+                    </div>
+    
+                    <div class="row">
+                        <label id="txt">numbers ranging from:</label><input type="text" name="as_nlo"  style="height:23px; width: 50%; border: 1px solid #c8c8c8;"> to  <input type="text" name="as_nhi"  style="height:23px; width: 50%; border: 1px solid #c8c8c8; ">
+                        <span id="txtR">Put two full stops between thennumbers and add the unit of measrement: <em>10..35 kg, £300..£500, 2010..2011</em></span>
+                    </div>
+                </form>
+            </div>
+  
+            </div>
+        
+
+            <div style="border-bottom: 1px solid rgb(234, 234, 234); margin-top: -35px;"></div>
+
+            <div class="container">
+        <div class="left">
+            <div style=" position: relative; right:12px ; bottom: 50px ; max-width: 190px;">Then narrow your results by...</div>
+            <form style=" position: relative; bottom: 50px ;">
+                <div class="row">
+                    <label id="txt">language:</label> <select id="txtBox2"><option class="optiontxt">any language</option></select>
+                    <span id="txtR">Find pages in the language that you select.</span>
+                </div>
+                <div class="row">
+                    <label id="txt">region:</label> <select id="txtBox2"><option >any region</option></select>
+                    <span id="txtR">Find pages published in a particular region.</span>
+                </div>
+                <div class="row">
+                    <label id="txt">last update:</label> <select id="txtBox2"><option >anytime</option></select>
+                    <span id="txtR">Find pages updated within the time that you specify.</span>
+                </div>
+                <div class="row">
+                    <label id="txt">site or domain:</label> <input type="text" id="txtBox">
+                    <span id="txtR">Search one site (like<em> wikipedia.org</em>) or limit your results to a domain like<em> .edu, .org or .gov</em></span>
+                </div>
+                <div class="row">
+                    <label id="txt">terms appearing:</label> <select id="txtBox2"><option >anywhere in the page</option></select>
+                    <span id="txtR">Search for terms in the whole page, page title or web address, or links to the page you're looking for.</span>
+                </div>
+                <div class="row">
+                    <label id="txt">file type:</label> <select id="txtBox2"><option >any format</option></select>
+                    <span id="txtR">Find pages in the format that you prefer.</span>
+                </div>
+                <div class="row">
+                    <label id="txt">usage rights:</label> <select id="txtBox2"><option>not filtered by license</option></select>
+                    <span id="txtR">Find pages that you are free to use yourself.</span>
+                </div>
+               
+            </form>
+            <div class="right-align-btn">
+                <input class="advanced-search-btn" type="submit" value="Advanced Search" form="advancedSearchForm">
+            </div>
+
+        </div>
+       
+        
+    </div>
+    <div style="border-top: 1px solid rgb(234, 234, 234); margin-top: -120px;"></div>
+
+    <div style="position:relative; bottom:15px; padding-left: 25px;">You can also...</div>
+    <p class="bottom-text">Find pages that are similar to a URL</p>
+    <p class="bottom-text">Search pages that you've visited</p>
+    <p class="bottom-text">Use operators in the search box</p>
+    <p class="bottom-text">Customise your search settings</p>
+     <div>
+        
+</div>
+<footer class="footer">
+
+      
+    <div class="footer-content">
+        <a id="Hbtn" href="#">Help</a>
+        <a id="Hbtn" href="#">Privacy</a>
+        <a id="Hbtn" href="#">Terms</a>
+    </div>
+
+</footer>
+        </body>
+        </div>
+</html>
