@@ -1,3 +1,5 @@
+
+
 # **Google Search Clone**
 
 This project is a simple clone of **Google's** main search page, including **Google Search**, **Google Image Search**, and **Google Advanced Search**. It mimics the look and feel of **Google's** search interface with basic functionality, allowing users to search using **Google’s** engine.
@@ -28,6 +30,6 @@ Once the project is open in your browser, you can:
 - **Search** for anything using the Google-like search bar.
 - Switch between **Google Search**, **Image Search**, and **Advanced Search**.
 
-
+google-search.png
 
 
