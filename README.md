@@ -18,8 +18,7 @@ This project is a simple clone of **Google's** main search page, including **Goo
  ## **Installation**
 
 1. Clone the repository: https://github.com/eisha-naz/google-search.git
-2. Navigate to the project folder: cd google-search
-3. Open the `index.html` file in your browser to view the project.
+2. Open the `index.html` file in your browser to view the project.
 
 No additional setup is required for this project since it is a static website.
 
